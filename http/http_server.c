@@ -11,7 +11,7 @@ int main()
     memset(&serveraddr,0,sizeof(serveraddr));
     serveraddr.sin_family=AF_INET;
     serveraddr.sin_port=htons(8080);
-    serveraddr.sin_addr.s_addr=inet_addr("192.168.127.129");
+    serveraddr.sin_addr.s_addr=inet_addr("192.168.***。***");
 
     //设置网络重用
     int on=1;
